@@ -1,0 +1,1 @@
+for /d %%j in (*) do start for %%i in (%%j\*.png) do zopflipng --iterations=500 --filters=01234mepb --lossy_8bit --lossy_transparent -y "%%i" "%%i"
